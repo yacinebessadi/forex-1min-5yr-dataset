@@ -5,7 +5,7 @@ The goal is to deliver fully gap-checked, UTC-aligned, backtest-ready datasets s
 
 The pipeline was built to meet institutional-style data quality requirements, including strict timestamp consistency, gap reporting, metadata generation, and reproducibility.
 
-🎯 Objectives
+Objectives
 
 Extract 1-minute OHLCV FX data from reliable broker/public sources
 
@@ -17,7 +17,7 @@ Detect, document, and optionally fill missing bars
 
 Deliver ready-to-use datasets with full transparency and QA artifacts
 
-📈 Data Coverage
+ Data Coverage
 
 Timeframe: Rolling 5-year window
 
@@ -32,31 +32,15 @@ Trading Days: Weekdays only (Saturday/Sunday excluded)
 Source: Dukascopy
 
 Pairs Included:
+EURUSD USDCHF USDCAD USDJPY AUDUSD GBPUSD
 
-EURUSD
-
-USDCHF
-
-USDCAD
-
-USDJPY
-
-AUDUSD
-
-GBPUSD
-
-📦 Deliverables (Per FX Pair)
+Deliverables (Per FX Pair)
 
 Each currency pair includes:
 
-✅ Final 5-year 1-minute CSV
-
-✅ Gap summary report (coverage, counts, missing bars)
-
-✅ Missing timestamps file (full list of gaps)
-
-✅ Metadata JSON (coverage, totals, source, notes)
-
-✅ Reproducible Jupyter notebook
-
-✅ Extraction & validation scripts
+Final 5-year 1-minute CSV
+Gap summary report (coverage, counts, missing bars)
+Missing timestamps file (full list of gaps)
+Metadata JSON (coverage, totals, source, notes)
+Reproducible Jupyter notebook
+Extraction & validation scripts
